@@ -5,14 +5,7 @@ function App() {
 
   return (
     <>
-      <div className='App'>
-        <h1>Hola Mundo</h1>
-        <p>Un Parrafo</p>
-      </div>
-      <div className='App'>
-        <h1>Hola Mundo</h1>
-        <p>Un Parrafo</p>
-      </div>
+
     </>
   );
 }
