@@ -5,8 +5,10 @@ import ListadoPacientes from "./components/ListadoPacientes";
 function App() {
   return (
     <>
+
       <Form />
       <ListadoPacientes />
+
     </>
   );
 }
