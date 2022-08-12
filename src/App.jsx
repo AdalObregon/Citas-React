@@ -1,17 +1,12 @@
 import React from "react";
+import Header from "./components/Header";
 
 function App() {
-  const edad = 18;
 
   return (
     <>
       <div className='App'>
-        <h1>Hola Mundo</h1>
-        <p>Un Parrafo</p>
-      </div>
-      <div className='App'>
-        <h1>Hola Mundo</h1>
-        <p>Un Parrafo</p>
+        <Header />
       </div>
     </>
   );
