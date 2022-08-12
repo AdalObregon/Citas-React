@@ -5,9 +5,13 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
       <div className='App'>
         <Header />
       </div>
+=======
+
+>>>>>>> main
     </>
   );
 }
