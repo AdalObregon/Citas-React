@@ -82,7 +82,7 @@ const Form = ({ pacientes, setPacientes, paciente, setPaciente }) => {
 
       <form
         onSubmit={handleSubmit}
-        className='bg-white shadow-md rounded-lg py-10 px-5 mx-5'
+        className='bg-white shadow-md rounded-lg py-10 px-5 mx-5 mb-10'
       >
         {error && (
           <Error>
