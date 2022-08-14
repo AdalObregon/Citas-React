@@ -29,7 +29,7 @@ const Paciente = ({ paciente, setPaciente, eliminarPaciente }) => {
         Síntomas: <span className='font-normal normal-case'> {sintomas}</span>
       </p>
 
-      <div className='flex justify-between mt-10'>
+      <div className='block md:flex md:justify-between mt-10'>
         <button
           type='button'
           className='py-2 px-16 bg-indigo-600 hover:bg-indigo-700 text-white  font-bold uppercase rounded-lg'
@@ -39,7 +39,7 @@ const Paciente = ({ paciente, setPaciente, eliminarPaciente }) => {
         </button>
         <button
           type='button'
-          className='py-2 px-10 bg-red-600 hover:bg-red-700 text-white font-bold uppercase rounded-lg'
+          className='py-2 px-14 bg-red-600 hover:bg-red-700 text-white font-bold uppercase rounded-lg mt-2'
           onClick={handleEliminar}
         >
           Eliminar
